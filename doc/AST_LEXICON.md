@@ -214,7 +214,7 @@ Assignments (`lvasgn`, etc) and side-effectful assignments (`send`).
 Features the same "incomplete assignments"
 and "incomplete calls" as [Multiple Assignment](#multiple-assignment).
 
-<h5 align="center">Variable Binary Operator-Assignment</h5> |
+<h5 align="center">Variable Binary Operator-Assignment</h5> ||
 ----------------------------------------- | -----------------------------------------------------------
 `a += 1`                                  | (op-asgn (lvasgn :a) :+ (int 1))
 `@a += 1`                                 | (op-asgn (ivasgn :a) :+ (int 1))
